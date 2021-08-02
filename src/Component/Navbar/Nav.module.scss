@@ -1,0 +1,18 @@
+.content_navbar{
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+    text-align: center;
+    border-bottom: 1px solid rgb(87, 224, 82);
+    button{
+        font-family: 'Montserrat', sans-serif !important;
+        background-color: rgba(0, 0, 0, 0);
+        border: none;
+        h1{
+            margin: 10px;
+            font-weight: 500;
+            font-size: 20px;
+            cursor: pointer;
+        }
+    }
+}

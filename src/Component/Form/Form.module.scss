@@ -1,0 +1,61 @@
+.content_inputs{
+    text-align: center;
+    transition: 0.5s !important;
+    padding-top: 40px;
+    h1{
+        transition: 0.5s !important;
+        margin: 20px;
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .card_add{
+        transition: 0.5s !important;
+        margin: 50px 0;
+        border-bottom: 1px solid rgba(87, 224, 82, 0.836);
+        padding-bottom: 40px;
+        textarea{
+            transition: 0.5s !important;
+            border-radius: 5px;
+            padding: 10px;
+            border: 1px solid rgba(87, 224, 82, 0.836);;
+            font-family: 'Montserrat', sans-serif !important;
+            font-size: 20px;
+            outline: none;
+            width: 1000px;
+            height: 200px;
+        }
+        input{
+            transition: 0.5s !important;
+            border-radius: 5px;
+            padding-left: 10px;
+            border: 1px solid rgba(87, 224, 82, 0.836);
+            font-family: 'Montserrat', sans-serif !important;
+            font-size: 18px;
+            outline: none;
+            width: 475px;
+            margin: 20px;
+            height: 40px;
+        }
+        button{
+            transition: 0.5s !important;
+            margin: 20px 0;
+            cursor: pointer;
+            transition: 0.3s;
+            border: none;
+            box-shadow: 0 0 5px rgb(137, 219, 105);
+            font-family: 'Montserrat', sans-serif !important;
+            width: 200px;
+            font-size: 15px;
+            border-radius: 20px;
+            color: #fff;
+            background-color: rgba(87, 224, 82, 0.836);
+            height: 40px;
+        }
+        button:hover{
+            
+            transition: 0.3s;
+            background-color: rgba(87, 224, 82, 0.966);
+            box-shadow: 0 0 7px rgb(119, 212, 82);
+        }
+    }
+}
